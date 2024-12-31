@@ -60,7 +60,7 @@ The script will:
 - Output the best-matching class based on the computed similarity scores.
 
 ![Output Image](results/children.png)
-
+*For more results check `results` directory
 
 ## Citation
 If you use this work, please acknowledge the CLIP paper and the Stable Diffusion project as inspirations for the architecture and training pipeline.
