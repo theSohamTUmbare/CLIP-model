@@ -2,6 +2,9 @@
 
 This repository contains the implementation and evaluation of a custom CLIP(https://arxiv.org/abs/2103.00020) (Contrastive Language-Image Pretraining) model, trained using a Vision Transformer (ViT) on the COCO dataset. The CLIP model architecture was adapted from **Stable Diffusion**(https://github.com/Stability-AI/stablediffusion) and modified with a custom training logic defined in the `train` folder.
 
+**You can get this note book on Kaggle[https://www.kaggle.com/code/sohamumbare/cliptrainer]**
+
+
 ## Overview
 
 The CLIP model was trained using a Vision Transformer (ViT) backbone and achieved the following results:
