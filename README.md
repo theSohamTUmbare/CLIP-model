@@ -22,7 +22,7 @@ The CLIP model was trained using a Vision Transformer (ViT) backbone and achieve
 
 Despite hardware limitations, the extended training period ensured effective convergence, as demonstrated by the consistent decline in the loss curve.
 
-## Notes
+## Key Notes
 
 - The training logic was implemented from scratch and is organized in the `src/train/` folder. This folder contains all scripts related to the dataset, data loading, and training loop. If you are interested in retraining or exploring the training logic make sure to review this folder.
 - The `evaluate.py` script is designed to work seamlessly with the pre-trained model and requires no additional setup beyond specifying the image path (optional).
