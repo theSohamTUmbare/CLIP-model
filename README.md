@@ -17,7 +17,7 @@ The CLIP model was trained using a Vision Transformer (ViT) backbone and achieve
 ### Training Details
 
 - **Resource Utilization**:  
-  Training was conducted on an NVIDIA Tesla P100 GPU with 16 GiB of RAM, consuming approximately 150 GPU hours.
+  Training was conducted on an NVIDIA Tesla P100 GPU with 16 GiB of RAM, consuming approximately **150 GPU hours**.
 - **Training Configuration**:  
   - **Batch Size**: 1024 (one-fourth of the original CLIP paper's batch size).  
   - **Epochs**: 85 (to compensate for the reduced batch size and GPU power).  
