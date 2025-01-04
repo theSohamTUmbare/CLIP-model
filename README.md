@@ -10,10 +10,10 @@ This repository contains the implementation and evaluation of a custom [CLIP](ht
 
 The CLIP model was trained using a Vision Transformer (ViT) backbone and achieved the following results:
 
-| Model       | Final Loss | Dataset | Batch Size | Epochs |
-|-------------|------------|---------|------------|--------|
-| CLIP Paper  | 0.47       | COCO    | 4096       | 30     |
-| **Our Model** | **0.72**   | **COCO**    | **1024**       | **85**     |
+| Model       | Final Loss | Dataset | Batch Size | Epochs | GPU Hardware | Training Time |
+|-------------|------------|---------|------------|--------|--------------|---------------|
+| CLIP Paper  | 0.47       | COCO    | 4096       | 30     | NVIDIA V100 (256 GPUs) | ~288 hours (12 days) |
+| **Our Model** | **0.72**   | **COCO**    | **1024**       | **85**     | NVIDIA GPU100 (1 GPU on Kaggle) | 150 hours |
 
 ### Training Details
 
